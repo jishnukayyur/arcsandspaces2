@@ -2,24 +2,24 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/arcsandspaces/',
+  baseHref: '/arcsandspaces2/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/arcsandspaces"
+    "route": "/arcsandspaces2"
   },
   {
     "renderMode": 2,
-    "route": "/arcsandspaces/gallery"
+    "route": "/arcsandspaces2/gallery"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 559, hash: '20e4bde9f3474cbcb07a8ee39a76040953f92ed3c95c2a1fd5e1b88019f362c6', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1073, hash: '464f996fc2ad58025ef3eaf12087e8add1a54a51a9f55b73881862ffa670e61e', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 13592, hash: 'ca2c18ab8319403d44294ed93fc85ac657e17731ca1c8efee3f3a46350d86233', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'gallery/index.html': {size: 6359, hash: '381fa9b32d318c7687d2d1e6ef552655129f049e0034fa9e58c3b09b0510c9c7', text: () => import('./assets-chunks/gallery_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 560, hash: '9b3a52e48c44281cc58bfabc4890ef63576a7dc9354bbb9e307e7ea029190b0c', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1074, hash: '6e17f456b2b13f3358b42635484fe7f0e6cb2cb96416825c206c95c163d99b95', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'gallery/index.html': {size: 6362, hash: '521775723b93100ce77ebc2f6ff0d2b3c921eda9541136d599d1b8b50bc3e559', text: () => import('./assets-chunks/gallery_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 13595, hash: 'e07f351e79070130f5f3cbc37e00741d7d4c6399cda68dadd5e39b06f9b0ae08', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/arcsandspaces',
+  basePath: '/arcsandspaces2',
   supportedLocales: {
   "en-US": ""
 },
